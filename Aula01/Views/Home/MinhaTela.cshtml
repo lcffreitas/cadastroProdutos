@@ -1,18 +1,23 @@
-﻿<h1>Titulo da página</h1>
+﻿<h1>Cadastro de produtos</h1>
 
 <p>
-    Aqui é a nossa tela MinhaTela.cshtml
+    Essa é a tela de cadastro de produtos
 </p>
 
 <form action="/Clientes/SalvarDados" method="post">
-    <label>Nome</label>
+    <label>Nome:</label>
     <input type="text" name="Nome" class="" />
     <br />
 
-    <label>Telefone</label>
-    <input type="text" name="Telefone" class="" />
+    <label>Preço:</label>
+    <input type="number" name="Preco" class="" />
     <br />
+
+    <label>Quantidade:</label>
+    <input type="number" name="Quantidade" class="" />
+    <br />
+
     <button type="submit" class="btn btn-success">
-        Enviar dados
+        Cadastrar
     </button>
 </form>

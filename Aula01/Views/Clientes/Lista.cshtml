@@ -5,7 +5,7 @@
     <div class="col-8 offset-2">
         <div class="card">
             <div class="card-header">
-                Lista de Clientes
+                Lista de Produtos
             </div>
             <div class="card-body">
 
@@ -14,7 +14,8 @@
                         <tr>
                             <th>Id</th>
                             <th>Nome</th>
-                            <th>Telefone</th>
+                            <th>Valor</th>
+                            <th>Quantidade</th>
                             <th></th>
                         </tr>
                     </thead>
@@ -24,7 +25,8 @@
                             <tr>
                                 <td>@cliente.Id</td>
                                 <td>@cliente.Nome</td>
-                                <td>@cliente.Telefone</td>
+                                <td>@cliente.Valor</td>
+                                <td>@cliente.Quantidade</td>
                                 <td>
                                     <a href="/Clientes/Excluir/@cliente.Id" class="btn btn-danger">
                                         Excluir    
